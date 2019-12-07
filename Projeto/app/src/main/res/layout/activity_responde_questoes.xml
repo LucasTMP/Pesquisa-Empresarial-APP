@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Responde_questoes">
+
+    <ListView
+        android:id="@+id/listadeperguntas"
+        android:layout_width="341dp"
+        android:layout_height="371dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/radius_view_consulta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_questionario" />
+
+    <TextView
+        android:id="@+id/titulo_questionario"
+        android:layout_width="341dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:text="Titulo da pesquisa"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/obs_questao"
+        android:layout_width="337dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:maxLength="200"
+        android:hint="Descreva sua opnião sincera sobre algum ponto do questionario."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listadeperguntas" />
+
+    <Button
+        android:id="@+id/btn_salvar_respostas"
+        android:layout_width="237dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/radius"
+        android:text="Salvar Respostas"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="salva_respostas"
+        app:layout_constraintEnd_toEndOf="@+id/obs_questao"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/obs_questao"
+        app:layout_constraintTop_toBottomOf="@+id/obs_questao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

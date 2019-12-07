@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo_questao"
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:text="A empresa vende hotdog de boa qualidade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <SeekBar
+        android:id="@+id/resposta_questao"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:max="10"
+        android:min="0"
+        android:progress="0"
+        android:onClick="alterarcor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_questao" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="361dp"
+        android:layout_height="33dp"
+        android:background="#397FC0"
+        app:layout_constraintBottom_toTopOf="@+id/titulo_questao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numero_questao"
+        android:layout_width="227dp"
+        android:layout_height="26dp"
+        android:text="Pergunta 1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/id_questao"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:text="id"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/resposta_questao"-->
+<!--        app:layout_constraintHorizontal_bias="0.496"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/resposta_questao"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />-->
+
+    <TextView
+        android:id="@+id/n0"
+        android:layout_width="9dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:text="0"
+        android:textColor="#e01b35"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="23dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="32dp"
+        android:text="  1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:text=" 3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:text="5"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:text="6"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="196dp"
+        android:text="7"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:text="8"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n9"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="244dp"
+        android:text=" 9"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:text="10"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:textStyle="bold"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="@+id/resposta_questao"
+        app:layout_constraintTop_toBottomOf="@+id/resposta_questao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

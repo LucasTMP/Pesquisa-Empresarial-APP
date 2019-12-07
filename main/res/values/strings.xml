@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto</string>
+    <string name="usuarios">Usuários</string>
+    <string name="acessar">Acessar</string>
+    <string name="esquecisenha">Esqueci minha senha</string>
+    <string name="bemvindo">Bem-Vindo</string>
+</resources>

@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projeto"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <application
+15-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:9:5-27:19
+16        android:allowBackup="true"
+16-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.example.projeto.Responde_questoes" />
+25-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:16:9-55
+25-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:16:19-52
+26        <activity android:name="com.example.projeto.Consulta_questoes" />
+26-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:17:9-55
+26-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:17:19-52
+27        <activity
+27-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="com.example.projeto.MainActivity"
+28-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:19:13-41
+29            android:theme="@style/AppTheme" >
+29-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:20:13-44
+30            <intent-filter>
+30-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\Lucas\AndroidStudioProjects\Projeto\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
