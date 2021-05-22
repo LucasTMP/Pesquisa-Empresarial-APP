@@ -1,2 +1,7 @@
-# Pesquisa-Empresaria-APP
-Sistema empresarial para pesquisas de satisfação interna, contempla a criação de questionários quantitativos, cadastros de colaboradores e o armazenamento de suas respostas.
+# Pesquisa-Empresarial-Desktop
+
+**README EM CONTRUÇÃO**
+
+Video Pitch (projeto Universitário):
+
+[![Video Badge](https://img.shields.io/badge/Video%20Pitch-f5f5f5?style=for-the-badge&logo=youtube&logoColor=red&labelColor=cecece)](https://www.youtube.com/watch?v=7Obp_z1DFFo)
