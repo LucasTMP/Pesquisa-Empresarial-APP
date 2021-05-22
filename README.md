@@ -1,6 +1,6 @@
 # Pesquisa-Empresarial-Desktop
 
-**README EM CONTRUÇÃO**
+**README EM CONSTRUÇÃO**
 
 Video Pitch (projeto Universitário):
 
